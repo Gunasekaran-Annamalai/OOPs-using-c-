@@ -1,4 +1,4 @@
-// prime number using friend funcion
+// prime number using "constructor"
 #include<iostream>
 using namespace std;
 class prime

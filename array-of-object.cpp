@@ -1,5 +1,5 @@
+// Students detail processing using "array of object"
 #include<iostream>
-
 using namespace std;
 class students
 {

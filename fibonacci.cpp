@@ -1,4 +1,4 @@
-// Fibonacci series using classes and object
+// Fibonacci series using "class and object"
 #include<iostream>
 using namespace std;
 class fibonacci

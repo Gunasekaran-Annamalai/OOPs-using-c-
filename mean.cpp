@@ -1,4 +1,4 @@
-// Mean value using friend function
+// Finding Mean value using "friend function"
 #include<iostream>
 using namespace std;
 class meanValue
