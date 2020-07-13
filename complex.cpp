@@ -1,7 +1,6 @@
 // Adding two Complex numbers using "object as argument"
 #include<iostream>
 using namespace std;
-
 class complex
 {
     private:
