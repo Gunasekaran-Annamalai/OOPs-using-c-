@@ -6,6 +6,7 @@ class prime
 private:
     int flag = 0;
 public:
+    // constructor
     prime(int n)
     {
         for (int i = 2; i < n / 2; i++)

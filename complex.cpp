@@ -13,6 +13,7 @@ class complex
             img = i;
         }
 
+        // objects as parameters
         void sumComplex( complex c1, complex c2)
         {
             real = c1.real + c2.real;
@@ -34,16 +35,24 @@ int main()
     complex com1, com2, com3;
     int real, img;
     cout << "Enter the real and imaginary number : "<<endl;
+
     cout << "real-number-1 : ";
     cin >> real;
+
     cout << "imaginar-number-1 : ";
     cin >> img;
+
     com1.setValues(real, img);
+
     cout << "real-number-2 : ";
     cin >> real;
+
     cout << "imaginar-number-2 : ";
     cin >> img;
+
     com2.setValues(real, img);
+
+    // passing objects as arguments
     com3.sumComplex(com1, com2);
     com3.displaySum();
 }

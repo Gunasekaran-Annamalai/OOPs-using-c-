@@ -8,6 +8,8 @@ private:
     int b = 1;
     int c;
 public:
+
+    // using constructor or special function
     fibonacci(int size)
     {
         cout << "The fibonacci series : ";
@@ -21,6 +23,8 @@ public:
         }
         cout << "\nThe last fibonacci number in series : " << b;
     }
+
+    // using recursion function
     int fiboRecursion(int times)
     {
         if(times == 0 || times == 1)

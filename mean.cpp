@@ -8,12 +8,15 @@ class meanValue
         int value;
 
     public:
+        // declaring friend function using friend keyword
         friend int findMean( meanValue, int );
 };
 
+// defining friend function
 int findMean( meanValue mv, int limit)
 {
     int series;
+    // accessing the private members out side the class
     mv.mean = 0;
     mv.value = 0;
     for (int i = 0; i < limit; i++)
