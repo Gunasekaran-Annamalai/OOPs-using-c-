@@ -30,7 +30,7 @@ class complex
         }
 };
 
-int main()
+int main(void)
 {
     complex com1, com2, com3;
     int real, img;
