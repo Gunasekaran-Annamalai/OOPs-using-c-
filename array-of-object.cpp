@@ -1,4 +1,4 @@
-// Students detail processing using "array of objects"
+// Students detail processing using "factoray of objects"
 #include<iostream>
 using namespace std;
 class students
@@ -63,7 +63,7 @@ int main(void)
     int number_of_students;
     cout << "Enter number of students : ";
     cin >> number_of_students;
-    students s[100]; // creating array of objects
+    students s[100]; // creating factoray of objects
     for (int i = 0; i < number_of_students; i++)
     {
         s[i].getDetails();
